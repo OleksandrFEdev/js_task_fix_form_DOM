@@ -22,9 +22,9 @@ inputs.forEach((input) => {
 });
 
 const secondForm = document.querySelector('form:nth-of-type(2)');
-const secondInpust = secondForm.querySelectorAll('input');
+const secondInputs = secondForm.querySelectorAll('input');
 
-secondInpust.forEach((item) => {
+secondInputs.forEach((item) => {
   const label = document.createElement('label');
 
   label.classList.add('field-label');
